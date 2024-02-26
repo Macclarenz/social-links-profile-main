@@ -46,6 +46,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
 
     & img {
         border-radius: 50%;
@@ -83,7 +84,6 @@ body {
 
     & q {
         color: var(--white);
-        text-align: center;
     }
 
     & img:hover ~ .profile-name::before {
